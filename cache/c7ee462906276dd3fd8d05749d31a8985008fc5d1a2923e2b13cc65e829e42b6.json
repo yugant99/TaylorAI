@@ -1,0 +1,262 @@
+{
+  "search_metadata": {
+    "id": "67fda89510f8045345274211",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/2013e5ef60bffd5f/67fda89510f8045345274211.json",
+    "created_at": "2025-04-15 00:30:13 UTC",
+    "processed_at": "2025-04-15 00:30:13 UTC",
+    "google_url": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&oq=%22CEO%22+%22Toronto%22+%22OpenBook%22&num=10&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/2013e5ef60bffd5f/67fda89510f8045345274211.html",
+    "total_time_taken": 1.15
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "\"CEO\" \"Toronto\" \"OpenBook\"",
+    "google_domain": "google.com",
+    "num": "10",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "\"CEO\" \"Toronto\" \"OpenBook\"",
+    "total_results": 3880,
+    "time_taken_displayed": 0.31,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "inline_images": [
+    {
+      "source": "https://ca.linkedin.com/in/chris-mcdowell-4204957a",
+      "thumbnail": "https://serpapi.com/searches/67fda89510f8045345274211/images/04c4ea9c42bee1b9b96bbe2ba601b93a09624bb8442d4626e6c3afc2a79fc510.jpeg",
+      "original": "https://media.licdn.com/dms/image/v2/D5603AQEzQxpD_akG2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714501998722?e=2147483647&v=beta&t=7pACi_jnO4UyKPM46CSzmYWjA_sxbwSG5QtJm_I4F70",
+      "title": "Chris McDowell - OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://ca.linkedin.com/in/chris-mcdowell-4204957a",
+      "thumbnail": "https://serpapi.com/searches/67fda89510f8045345274211/images/04c4ea9c42bee1b997c651e099e8d156d721c76a9f686c543ec8a90b448ec806.jpeg",
+      "original": "https://media.licdn.com/dms/image/v2/D4E22AQGEtpAv4t8nfQ/feedshare-shrink_800/feedshare-shrink_800/0/1726753908705?e=2147483647&v=beta&t=0o4BqhjIH6LJOLnEdaKrVs8jSJukzq6gVgR7hZoFBWY",
+      "title": "Chris McDowell - OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://ca.linkedin.com/in/wdlcameron",
+      "thumbnail": "https://serpapi.com/searches/67fda89510f8045345274211/images/04c4ea9c42bee1b9df442733c82b705ea85ef29349747d2050c72cdf119205e7.jpeg",
+      "original": "https://media.licdn.com/dms/image/v2/D5603AQGjDYh237yW6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675901566521?e=2147483647&v=beta&t=rRpSbUChz3g5FCFXAHtypGKugQuShjJAnmZEJcmQ1Ks",
+      "title": "William Cameron - Co-founder & CTO - OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://ca.linkedin.com/in/wdlcameron",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KAXg_4P2z3SURxzt4lK4F0AcFjbcFZDuh7shM6ytj59iUF_f0dW2YeY&s",
+      "original": "https://media.licdn.com/dms/image/v2/D5622AQH3o020MmxUVg/feedshare-shrink_800/feedshare-shrink_800/0/1710422274175?e=2147483647&v=beta&t=8zYIr5bU78ku5xvKoLEBcsNWg_iBZu9p3hzrx76_WIA",
+      "title": "William Cameron - Co-founder & CTO - OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://ca.linkedin.com/company/openbook-learning-ai",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZcIr6okBwUZbKzotbYATHdC9T9OkuuYyZ7MQmKPkVb-2LUqTM-J5IQQ&s",
+      "original": "https://media.licdn.com/dms/image/v2/D560BAQFtm7JPJYjn1A/company-logo_200_200/company-logo_200_200/0/1711462160090/openbook_learning_ai_logo?e=2147483647&v=beta&t=PIlRuVK0w3lhZZyfcqcINozIKhJ5KKmiWsI7-bEnvX4",
+      "title": "OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://rocketreach.co/chris-mcdowell-email_9289764",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTON52uBtoZLYIFgOzXoxZvaGVetEc2VAo7qbOBS9WZn9-8_1j6qUqfODM&s",
+      "original": "https://d2gjqh9j26unp0.cloudfront.net/profilepic/949aa0ec15e62e0407b58013209e990f",
+      "title": "Chris McDowell Email & Phone Number | OpenBook AI CEO and Co ...",
+      "source_name": "RocketReach"
+    },
+    {
+      "source": "https://ca.linkedin.com/in/chris-mcdowell-4204957a",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5T7HXKd5McIVyg2FQ43gCQ8Qawugz5BLeEqHEqcOOvJgrmSN05G50vYA&s",
+      "original": "https://media.licdn.com/dms/image/v2/D4E05AQF_ctuV0u6YLg/videocover-low/B4EZUEnFiWHMCM-/0/1739539113145?e=2147483647&v=beta&t=qHfuy4lTQECeP4DjGLOyQ_8kDvpcuixUdp2npds236k",
+      "title": "Chris McDowell - OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://ca.linkedin.com/company/openbook-learning-ai",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Mf-v3o78ZXOnitOPF0tRNkPJY7ijOmFxwbaV62iSO2nwOecx5MZWCjk&s",
+      "original": "https://media.licdn.com/dms/image/v2/D563DAQFtwD3YQ3lrdA/image-scale_191_1128/image-scale_191_1128/0/1711465785636/openbook_learning_ai_cover?e=2147483647&v=beta&t=fHRu_LHSupRm1nFgyD2va_bpoagQpe-tvXuGbXM-A78",
+      "title": "OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    },
+    {
+      "source": "https://ca.linkedin.com/in/chris-mcdowell-4204957a",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ3sIiOABCgHg7Bj_b1_DQEMnV96SQjio34xhMtTbJf-S7NREJgvltqW8&s",
+      "original": "https://media.licdn.com/dms/image/v2/D4E22AQGTS9Cnv7O_aA/feedshare-shrink_800/feedshare-shrink_800/0/1727788964891?e=2147483647&v=beta&t=dJQsnIqYEnhve8_5iCJMNkXyCOO8bnwaSw0_015JgHw",
+      "title": "Chris McDowell - OpenBook AI | LinkedIn",
+      "source_name": "LinkedIn"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Chris McDowell - OpenBook AI",
+      "link": "https://ca.linkedin.com/in/chris-mcdowell-4204957a",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ca.linkedin.com/in/chris-mcdowell-4204957a&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECBkQAQ",
+      "displayed_link": "2.5K+ followers",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20a872a73bfbf5e06b54a3d875d40904df5.png",
+      "snippet": "Experience: OpenBook AI \u00b7 Education: University of Toronto \u00b7 Location: Toronto \u00b7 500+ connections on LinkedIn. View Chris McDowell's profile on LinkedIn, ...",
+      "snippet_highlighted_words": [
+        "OpenBook",
+        "Toronto",
+        "Toronto"
+      ],
+      "rich_snippet": {
+        "top": {
+          "extensions": [
+            "Toronto, Ontario, Canada",
+            "OpenBook AI"
+          ]
+        }
+      },
+      "source": "LinkedIn \u00b7 Chris McDowell"
+    },
+    {
+      "position": 2,
+      "title": "Chris McDowell Email & Phone Number | OpenBook AI ...",
+      "link": "https://rocketreach.co/chris-mcdowell-email_9289764",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://rocketreach.co/chris-mcdowell-email_9289764&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECBUQAQ",
+      "displayed_link": "https://rocketreach.co \u203a chris-mcdowell-email_9289764",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20a3ee6bf95a21e5b7bcdd2fc2ee52882cd.png",
+      "snippet": "Chris McDowell, based in Toronto, ON, CA, is currently a CEO and Co-founder at OpenBook AI. Chris McDowell brings experience from previous roles.",
+      "snippet_highlighted_words": [
+        "Toronto",
+        "CEO",
+        "OpenBook"
+      ],
+      "source": "RocketReach"
+    },
+    {
+      "position": 3,
+      "title": "OpenBook AI",
+      "link": "https://ca.linkedin.com/company/openbook-learning-ai",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ca.linkedin.com/company/openbook-learning-ai&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECBgQAQ",
+      "displayed_link": "10+ followers",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20a0e075be1af0746ab87ed4093451bb04a.png",
+      "snippet": "Toronto, Ontario M5S, CA. Get directions. Employees at OpenBook AI. Click here to view Chris McDowell's profile. Chris McDowell. CEO & Co-founder at OpenBook.",
+      "snippet_highlighted_words": [
+        "Toronto",
+        "OpenBook",
+        "CEO",
+        "OpenBook"
+      ],
+      "source": "LinkedIn \u00b7 OpenBook AI"
+    },
+    {
+      "position": 4,
+      "title": "Full Issue",
+      "link": "https://www.afb.org/aw/full-issue?id=14090",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.afb.org/aw/full-issue%3Fid%3D14090&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECBYQAQ",
+      "displayed_link": "https://www.afb.org \u203a full-issue",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20afbaff48380aa2878d19a70abf0989acd.png",
+      "snippet": "OPENBook 5.0 English Version is the newest scan-and-read software from Freedom Scientific. OPENBook 5.0 is designed to convert scanned print materials into ...",
+      "snippet_highlighted_words": [
+        "OPENBook",
+        "OPENBook"
+      ],
+      "source": "American Foundation for the Blind"
+    },
+    {
+      "position": 5,
+      "title": "Appendix B: Workshop Agenda and Panelist Biographies ...",
+      "link": "https://nap.nationalacademies.org/read/24649/chapter/12",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nap.nationalacademies.org/read/24649/chapter/12&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECCkQAQ",
+      "displayed_link": "https://nap.nationalacademies.org \u203a read \u203a chapter",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20aced1cac21dc44c30b3d63c7bb1ae5b08.png",
+      "snippet": "STEPHANE KASRIEL is the CEO of Upwork, driving the company's vision of connecting businesses with talent. In today's competitive job market where most face the ...",
+      "snippet_highlighted_words": [
+        "CEO"
+      ],
+      "source": "The National Academies Press"
+    },
+    {
+      "position": 6,
+      "title": "Examining the Global Landscape of Academic Health ...",
+      "link": "https://www.aamc.org/media/66961/download?attachment",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.aamc.org/media/66961/download%3Fattachment&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECCUQAQ",
+      "displayed_link": "https://www.aamc.org \u203a media \u203a download \u203a atta...",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20a811ff47cc1a8b71b6857aa3c8b4b54db.png",
+      "snippet": "the AAHC Board, the AAHC office, and the CEO ... Verma is Deputy Dean, Faculty of Medicine at the. University of Toronto, and served as Visiting Scholar at.",
+      "snippet_highlighted_words": [
+        "CEO",
+        "Toronto"
+      ],
+      "source": "AAMC"
+    },
+    {
+      "position": 7,
+      "title": "Appendix A: Biographies of Committee Members and Staff",
+      "link": "https://nap.nationalacademies.org/read/13051/chapter/7",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nap.nationalacademies.org/read/13051/chapter/7&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECCcQAQ",
+      "displayed_link": "https://nap.nationalacademies.org \u203a read \u203a chapter",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20a99a3f590822de89c3ef48ad768098ccf.png",
+      "snippet": "degree in aerospace physics from the University of Toronto in 1982. ... David Skellern is CEO of National ICT Austrialia (NICTA). Skellern began his ...",
+      "snippet_highlighted_words": [
+        "Toronto",
+        "CEO"
+      ],
+      "source": "The National Academies Press"
+    },
+    {
+      "position": 8,
+      "title": "Canadian Incident Analysis Framework",
+      "link": "https://www.healthcareexcellence.ca/media/gilnw3uy/canadian-incident-analysis-framework-final-ua.pdf",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.healthcareexcellence.ca/media/gilnw3uy/canadian-incident-analysis-framework-final-ua.pdf&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECCYQAQ",
+      "displayed_link": "https://www.healthcareexcellence.ca \u203a media \u203a can...",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20a0e3e8a3d887d15a1233f5af52c8fb997.png",
+      "snippet": "physician, CEO, risk management committee, medical managers, health record staff, unit ... Toronto, ON: ISMP Canada; 2009. Available from: www.ismp- \u00b7 canada.org/ ...",
+      "snippet_highlighted_words": [
+        "CEO",
+        "Toronto"
+      ],
+      "source": "Healthcare Excellence Canada"
+    },
+    {
+      "position": 9,
+      "title": "Russell Gonnering, Author at The Cynefin Co",
+      "link": "https://thecynefin.co/author/russellgonnering/?srsltid=AfmBOoo_OTkmK0QNtU6rKsKpWvThwyYEMUeKB2ec0Vp1Gm0WUnAf_xI7",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://thecynefin.co/author/russellgonnering/%3Fsrsltid%3DAfmBOoo_OTkmK0QNtU6rKsKpWvThwyYEMUeKB2ec0Vp1Gm0WUnAf_xI7&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQFnoECCgQAQ",
+      "displayed_link": "https://thecynefin.co \u203a author \u203a russellgonnering",
+      "favicon": "https://serpapi.com/searches/67fda89510f8045345274211/images/111f54112385527cf3c725679600f20ad999b3b79416534a692f3654e955a8cb.png",
+      "snippet": "... openbook.php?record_id=10027&page=309. 4. The importance of organizational ... Toronto a decade earlier http://www.ncbi.nlm.nih.gov/pmc/articles ...",
+      "snippet_highlighted_words": [
+        "openbook",
+        "Toronto"
+      ],
+      "source": "The Cynefin Co"
+    }
+  ],
+  "top_stories_link": "https://www.google.com/search?sca_esv=841d7e2ab15ade5d&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&udm=2&source=univ&fir=3bbF6rqE_N1fBM%252CxxsaNo_wT2AcvM%252C_%253BL5CRy7e1KZ4hcM%252CxxsaNo_wT2AcvM%252C_%253BnewBqoIJNP8rsM%252CCyb0YgAWpjtYaM%252C_%253Bjzp5GjIB6vYv1M%252CCyb0YgAWpjtYaM%252C_%253BM68x0QngWKFSPM%252CtMoPAAwX91FBjM%252C_%253B8GvWUExxVyA8aM%252Czv-UpLTjd-qYUM%252C_%253BM4LtDH-ew-Rj9M%252CxxsaNo_wT2AcvM%252C_%253BoQN81M6F2czLnM%252CtMoPAAwX91FBjM%252C_%253Bsi50h81ul2qdrM%252CxxsaNo_wT2AcvM%252C_&usg=AI4_-kQq07AJy6ZEkMYoVdXc6DAvER90yw&sa=X&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ7Al6BAgUEAY",
+  "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22",
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=10&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8NMDegQIBRAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=10&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAE",
+      "3": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=20&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAG",
+      "4": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=30&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAI",
+      "5": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=40&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAK",
+      "6": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=50&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAM",
+      "7": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=60&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAO",
+      "8": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=70&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAQ",
+      "9": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=80&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAS",
+      "10": "https://www.google.com/search?q=%22CEO%22+%22Toronto%22+%22OpenBook%22&sca_esv=841d7e2ab15ade5d&ei=laj9Z7nOI_y6vr0PjbeRwAI&start=90&sa=N&sstk=Af40H4VFSdO_yrmcQLcgWVCQgKmwOQGNZGQK7RfVpIUc1Z8aoPSVG9WCNZmqCQUsoWpomz1oJtNV2UfxYdetOGDYCidaKYDPiEvjCw&ved=2ahUKEwj57JGt5NiMAxV8na8BHY1bBCgQ8tMDegQIBRAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=10&q=%22CEO%22+%22Toronto%22+%22OpenBook%22&start=90"
+    }
+  }
+}

@@ -1,0 +1,862 @@
+2025-04-15 21:45:14,261 - INFO - Extracted 0 jobs from markdown
+2025-04-15 21:45:14,262 - INFO - Extracted 20 jobs from Wellfound markdown
+2025-04-15 21:45:14,262 - INFO - Processing job chunk 1/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:14,579 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:17,911 - INFO - Processing job chunk 2/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:18,015 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:21,542 - INFO - Processing job chunk 3/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:21,645 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:25,113 - INFO - Processing job chunk 4/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:25,284 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:33,176 - INFO - Processing job chunk 5/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:33,306 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:36,550 - INFO - Processing job chunk 6/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:36,706 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:40,168 - INFO - Processing job chunk 7/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:40,265 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:43,436 - INFO - Processing job chunk 8/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:43,540 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:46,514 - INFO - Processing job chunk 9/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:46,598 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:49,869 - INFO - Processing job chunk 10/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:50,109 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:53,219 - INFO - Processing job chunk 11/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:53,312 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:45:56,808 - INFO - Processing job chunk 12/20 from https://wellfound.com/location/toronto
+2025-04-15 21:45:56,907 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:00,422 - INFO - Processing job chunk 13/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:00,533 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:03,845 - INFO - Processing job chunk 14/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:03,999 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:07,483 - INFO - Processing job chunk 15/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:07,586 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:11,095 - INFO - Processing job chunk 16/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:11,194 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:14,441 - INFO - Processing job chunk 17/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:14,538 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:17,832 - INFO - Processing job chunk 18/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:18,167 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:21,331 - INFO - Processing job chunk 19/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:21,431 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:24,749 - INFO - Processing job chunk 20/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:24,855 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:31,576 - INFO - Extracted 20 jobs from Wellfound markdown
+2025-04-15 21:46:31,577 - INFO - Processing job chunk 1/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:31,762 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:34,871 - INFO - Processing job chunk 2/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:34,967 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:38,435 - INFO - Processing job chunk 3/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:38,537 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:41,869 - INFO - Processing job chunk 4/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:42,097 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:45,560 - INFO - Processing job chunk 5/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:45,655 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:48,961 - INFO - Processing job chunk 6/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:49,073 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:52,432 - INFO - Processing job chunk 7/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:52,543 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:55,815 - INFO - Processing job chunk 8/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:55,963 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:46:59,425 - INFO - Processing job chunk 9/20 from https://wellfound.com/location/toronto
+2025-04-15 21:46:59,530 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:02,877 - INFO - Processing job chunk 10/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:02,986 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:06,090 - INFO - Processing job chunk 11/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:06,184 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:09,326 - INFO - Processing job chunk 12/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:09,475 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:12,528 - INFO - Processing job chunk 13/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:12,626 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:15,457 - INFO - Processing job chunk 14/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:15,568 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:18,778 - INFO - Processing job chunk 15/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:18,877 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:24,334 - INFO - Processing job chunk 16/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:24,458 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:27,654 - INFO - Processing job chunk 17/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:27,751 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:30,865 - INFO - Processing job chunk 18/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:30,959 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:34,229 - INFO - Processing job chunk 19/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:34,398 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:37,838 - INFO - Processing job chunk 20/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:38,036 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:41,059 - INFO - Extracted 20 jobs from Wellfound markdown
+2025-04-15 21:47:41,060 - INFO - Processing job chunk 1/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:41,161 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:44,481 - INFO - Processing job chunk 2/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:44,578 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:51,944 - INFO - Processing job chunk 3/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:52,100 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:55,738 - INFO - Processing job chunk 4/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:55,850 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:47:58,999 - INFO - Processing job chunk 5/20 from https://wellfound.com/location/toronto
+2025-04-15 21:47:59,108 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:02,403 - INFO - Processing job chunk 6/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:02,519 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:05,822 - INFO - Processing job chunk 7/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:05,986 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:09,113 - INFO - Processing job chunk 8/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:09,209 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:12,572 - INFO - Processing job chunk 9/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:12,691 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:15,866 - INFO - Processing job chunk 10/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:15,960 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:19,504 - INFO - Processing job chunk 11/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:19,637 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:23,079 - INFO - Processing job chunk 12/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:23,202 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:26,409 - INFO - Processing job chunk 13/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:26,526 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:29,618 - INFO - Processing job chunk 14/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:29,703 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:32,684 - INFO - Processing job chunk 15/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:32,826 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:35,927 - INFO - Processing job chunk 16/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:36,063 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:39,580 - INFO - Processing job chunk 17/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:39,668 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:43,178 - INFO - Processing job chunk 18/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:43,332 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:46,755 - INFO - Processing job chunk 19/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:46,865 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:50,169 - INFO - Processing job chunk 20/20 from https://wellfound.com/location/toronto
+2025-04-15 21:48:50,297 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:48:55,554 - INFO - Extracted 15 jobs from Indeed markdown
+2025-04-15 21:48:55,554 - INFO - Processing job chunk 1/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,554 - INFO - Processing job chunk 2/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,554 - INFO - Processing job chunk 3/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,554 - INFO - Processing job chunk 4/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 5/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 6/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 7/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 8/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 9/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 10/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 11/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 12/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 13/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 14/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,555 - INFO - Processing job chunk 15/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Extracted 15 jobs from Indeed markdown
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 1/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 2/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 3/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 4/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 5/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 6/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 7/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 8/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 9/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 10/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 11/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 12/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 13/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 14/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,556 - INFO - Processing job chunk 15/15 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:48:55,560 - INFO - ✅ Extracted 67 jobs
+2025-04-15 21:48:55,560 - INFO - 📁 Saved to processed_jobs/structured_jobs_20250415_214855.json
+2025-04-15 21:53:23,808 - INFO - Processing data from https://www.glassdoor.ca/Job/toronto-data-scientist-jobs-SRCH_IL.0,7_IC2281069_KO8,22.htm
+2025-04-15 21:53:23,809 - INFO - Processing https://www.glassdoor.ca/Job/toronto-data-scientist-jobs-SRCH_IL.0,7_IC2281069_KO8,22.htm, page 1
+2025-04-15 21:53:23,809 - INFO - Extracting Glassdoor jobs
+2025-04-15 21:53:23,809 - INFO - Extracted 0 Glassdoor job sections
+2025-04-15 21:53:23,809 - INFO - Processing data from https://wellfound.com/location/toronto
+2025-04-15 21:53:23,809 - INFO - Processing https://wellfound.com/location/toronto, page 1
+2025-04-15 21:53:23,809 - INFO - Extracting Wellfound jobs
+2025-04-15 21:53:23,813 - INFO - Extracted 1 Wellfound job sections
+2025-04-15 21:53:23,813 - INFO - Skipping chunk 1 (too small: 193 chars)
+2025-04-15 21:53:23,813 - INFO - Processing https://wellfound.com/location/toronto, page 2
+2025-04-15 21:53:23,813 - INFO - Extracting Wellfound jobs
+2025-04-15 21:53:23,816 - INFO - Extracted 0 Wellfound job sections
+2025-04-15 21:53:23,816 - INFO - Processing https://wellfound.com/location/toronto, page 3
+2025-04-15 21:53:23,816 - INFO - Extracting Wellfound jobs
+2025-04-15 21:53:23,821 - INFO - Extracted 2 Wellfound job sections
+2025-04-15 21:53:23,821 - INFO - Skipping chunk 1 (too small: 193 chars)
+2025-04-15 21:53:23,821 - INFO - Skipping chunk 2 (too small: 139 chars)
+2025-04-15 21:53:23,821 - INFO - Processing data from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:23,821 - INFO - Processing https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html, page 1
+2025-04-15 21:53:23,821 - INFO - Extracting Indeed jobs
+2025-04-15 21:53:23,821 - INFO - Found 15 potential job titles in Indeed table format
+2025-04-15 21:53:23,823 - INFO - Found 1 job details sections in Indeed
+2025-04-15 21:53:23,824 - INFO - Found 1 full job descriptions in Indeed
+2025-04-15 21:53:23,824 - INFO - Extracted 14 Indeed job sections
+2025-04-15 21:53:23,824 - INFO - Processing job 1/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:24,201 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:27,142 - INFO - Successfully processed job: Data Scientist
+2025-04-15 21:53:27,647 - INFO - Processing job 2/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:27,759 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:30,558 - INFO - Successfully processed job: Data Scientist III
+2025-04-15 21:53:31,060 - INFO - Processing job 3/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:31,181 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:34,096 - INFO - Successfully processed job: Data Scientist, Fundamental Sector Data
+2025-04-15 21:53:34,599 - INFO - Processing job 4/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:34,706 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:37,458 - INFO - Successfully processed job: Data Scientist II - Reporting
+2025-04-15 21:53:37,959 - INFO - Processing job 5/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:37,959 - INFO - Skipping duplicate job 5
+2025-04-15 21:53:37,960 - INFO - Processing job 6/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:38,134 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:40,901 - INFO - Successfully processed job: Data Scientist
+2025-04-15 21:53:41,403 - INFO - Processing job 7/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:41,523 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:44,191 - INFO - Successfully processed job: Data Scientist
+2025-04-15 21:53:44,692 - INFO - Processing job 8/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:44,800 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:47,613 - INFO - Successfully processed job: Product Data Scientist
+2025-04-15 21:53:48,123 - INFO - Processing job 9/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:48,126 - INFO - Skipping duplicate job 9
+2025-04-15 21:53:48,127 - INFO - Processing job 10/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:48,128 - INFO - Skipping duplicate job 10
+2025-04-15 21:53:48,128 - INFO - Processing job 11/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:48,128 - INFO - Skipping duplicate job 11
+2025-04-15 21:53:48,128 - INFO - Skipping chunk 12 (too small: 16 chars)
+2025-04-15 21:53:48,128 - INFO - Processing job 13/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:48,247 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:53:54,882 - INFO - Successfully processed job: Data Scientist
+2025-04-15 21:53:55,386 - INFO - Processing job 14/14 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:53:55,528 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:02,365 - INFO - Successfully processed job: Data Scientist
+2025-04-15 21:54:02,868 - INFO - Processing https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html, page 2
+2025-04-15 21:54:02,868 - INFO - Extracting Indeed jobs
+2025-04-15 21:54:02,869 - INFO - Found 15 potential job titles in Indeed table format
+2025-04-15 21:54:02,872 - INFO - Found 1 job details sections in Indeed
+2025-04-15 21:54:02,872 - INFO - Found 1 full job descriptions in Indeed
+2025-04-15 21:54:02,872 - INFO - Extracted 7 Indeed job sections
+2025-04-15 21:54:02,872 - INFO - Processing job 1/7 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:54:02,978 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:05,607 - INFO - Successfully processed job: Data Scientist, Fundamental Sector Data
+2025-04-15 21:54:06,110 - INFO - Processing job 2/7 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:54:06,262 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:09,319 - INFO - Successfully processed job: Senior Data Scientist
+2025-04-15 21:54:09,823 - INFO - Processing job 3/7 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:54:09,926 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:12,636 - INFO - Successfully processed job: Data Scientist II - Reporting
+2025-04-15 21:54:13,139 - INFO - Processing job 4/7 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:54:13,288 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:15,933 - INFO - Successfully processed job: Data Scientist – Algorithm & Behavioral Insights
+2025-04-15 21:54:16,438 - INFO - Skipping chunk 5 (too small: 16 chars)
+2025-04-15 21:54:16,438 - INFO - Processing job 6/7 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:54:16,544 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:20,723 - INFO - Successfully processed job: Senior Data Analyst
+2025-04-15 21:54:21,229 - INFO - Processing job 7/7 from https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html
+2025-04-15 21:54:21,396 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:54:25,546 - INFO - Successfully processed job: Senior Data Analyst
+2025-04-15 21:54:26,052 - INFO - ✅ Extracted 15 jobs
+2025-04-15 21:54:26,052 - INFO - 📁 Saved to processed_jobs/structured_jobs_20250415_215426.json
+2025-04-15 21:57:29,377 - INFO - Processing data from https://www.glassdoor.ca/Job/toronto-data-scientist-jobs-SRCH_IL.0,7_IC2281069_KO8,22.htm
+2025-04-15 21:57:29,378 - INFO - Processing https://www.glassdoor.ca/Job/toronto-data-scientist-jobs-SRCH_IL.0,7_IC2281069_KO8,22.htm, page 1
+2025-04-15 21:57:29,378 - INFO - Extracting Glassdoor jobs
+2025-04-15 21:57:29,378 - INFO - Extracted 0 Glassdoor job chunks
+2025-04-15 21:57:29,378 - INFO - Processing data from https://wellfound.com/location/toronto
+2025-04-15 21:57:29,378 - INFO - Processing https://wellfound.com/location/toronto, page 1
+2025-04-15 21:57:29,378 - INFO - Extracting Wellfound jobs
+2025-04-15 21:57:29,378 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,379 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,379 - INFO - Found 2 job titles in a Wellfound section
+2025-04-15 21:57:29,379 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,380 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,380 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,380 - INFO - Found 1 job titles in a Wellfound section
+2025-04-15 21:57:29,380 - INFO - Found 1 job titles in a Wellfound section
+2025-04-15 21:57:29,380 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,381 - INFO - Found 2 job titles in a Wellfound section
+2025-04-15 21:57:29,381 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,381 - INFO - Found 1 job titles in a Wellfound section
+2025-04-15 21:57:29,381 - INFO - Found 1 job titles in a Wellfound section
+2025-04-15 21:57:29,381 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,381 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,382 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,382 - INFO - Found 1 job titles in a Wellfound section
+2025-04-15 21:57:29,382 - INFO - Found 1 job titles in a Wellfound section
+2025-04-15 21:57:29,382 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,383 - INFO - Found 3 job titles in a Wellfound section
+2025-04-15 21:57:29,383 - INFO - Extracted 46 Wellfound job chunks
+2025-04-15 21:57:29,383 - INFO - Processing job 1/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:29,737 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:32,703 - INFO - Successfully processed job: Java Full Stack Developer
+2025-04-15 21:57:33,206 - INFO - Processing job 2/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:33,323 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:36,204 - INFO - Successfully processed job: DevOps Engineer
+2025-04-15 21:57:36,710 - INFO - Processing job 3/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:36,868 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:39,549 - INFO - Successfully processed job: Senior DevOps Engineer
+2025-04-15 21:57:40,050 - INFO - Processing job 4/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:40,227 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:43,065 - INFO - Successfully processed job: Technical Program Manager, Optimized Checkout
+2025-04-15 21:57:43,571 - INFO - Processing job 5/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:43,749 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:46,544 - INFO - Successfully processed job: Engineering Manager, Tax Platform
+2025-04-15 21:57:47,049 - INFO - Processing job 6/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:47,197 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:50,101 - INFO - Successfully processed job: Machine Learning Engineer, Credit Risk
+2025-04-15 21:57:50,606 - INFO - Processing job 7/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:50,726 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:53,609 - INFO - Successfully processed job: Software Engineer, Microservices (Typescript) - Remote
+2025-04-15 21:57:54,114 - INFO - Processing job 8/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:54,312 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:57:57,095 - INFO - Successfully processed job: Enterprise Territory Account Executive - Canada
+2025-04-15 21:57:57,597 - INFO - Processing job 9/46 from https://wellfound.com/location/toronto
+2025-04-15 21:57:57,712 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:00,535 - INFO - Successfully processed job: Technical Product Manager
+2025-04-15 21:58:01,037 - INFO - Processing job 10/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:01,160 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:04,124 - INFO - Successfully processed job: Project Manager
+2025-04-15 21:58:04,630 - INFO - Processing job 11/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:04,760 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:07,544 - INFO - Successfully processed job: HRP Implementation Consultant
+2025-04-15 21:58:08,046 - INFO - Processing job 12/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:08,275 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:11,063 - INFO - Successfully processed job: Software Engineer
+2025-04-15 21:58:11,567 - INFO - Processing job 13/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:11,676 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:14,264 - INFO - Successfully processed job: Founding Software Engineer
+2025-04-15 21:58:14,769 - INFO - Processing job 14/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:14,919 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:17,788 - INFO - Successfully processed job: Senior Software Engineer
+2025-04-15 21:58:18,291 - INFO - Processing job 15/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:18,410 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:21,482 - INFO - Successfully processed job: Senior Product Manager, Invoice & Billing
+2025-04-15 21:58:21,984 - INFO - Processing job 16/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:22,150 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:24,953 - INFO - Successfully processed job: Senior Product Designer, Financial Products
+2025-04-15 21:58:25,457 - INFO - Processing job 17/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:25,588 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:28,401 - INFO - Successfully processed job: Senior Data Platform Engineer
+2025-04-15 21:58:28,903 - INFO - Processing job 18/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:29,113 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:31,765 - INFO - Successfully processed job: Back End Developer
+2025-04-15 21:58:32,267 - INFO - One minute elapsed, resetting rate limit counter
+2025-04-15 21:58:32,268 - INFO - Processing job 19/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:32,404 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:35,346 - INFO - Successfully processed job: Senior Software Engineer, Business Process & Automation
+2025-04-15 21:58:35,852 - INFO - Processing job 20/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:36,022 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:38,676 - INFO - Successfully processed job: Senior Site Reliability Engineer
+2025-04-15 21:58:39,182 - INFO - Processing job 21/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:39,322 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:42,252 - INFO - Successfully processed job: Engineering Manager, Data and ML
+2025-04-15 21:58:42,758 - INFO - Processing job 22/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:42,870 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:45,798 - INFO - Successfully processed job: Identity and Access Management (IAM) Specialist
+2025-04-15 21:58:46,299 - INFO - Processing job 23/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:46,418 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:49,282 - INFO - Successfully processed job: Tech Lead
+2025-04-15 21:58:49,788 - INFO - Processing job 24/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:49,985 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:52,608 - INFO - Successfully processed job: City Launcher (Growth Marketing Focus)
+2025-04-15 21:58:53,113 - INFO - Processing job 25/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:53,257 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:55,954 - INFO - Successfully processed job: Product Enablement Manager
+2025-04-15 21:58:56,459 - INFO - Skipping duplicate job chunk 26
+2025-04-15 21:58:56,459 - INFO - Processing job 27/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:56,571 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:58:59,338 - INFO - Successfully processed job: Manager, Data Engineering - Business Intelligence
+2025-04-15 21:58:59,842 - INFO - Processing job 28/46 from https://wellfound.com/location/toronto
+2025-04-15 21:58:59,990 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:02,869 - INFO - Successfully processed job: Founding Engineer (Backend/Full-Stack)
+2025-04-15 21:59:03,370 - INFO - Processing job 29/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:03,559 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:06,336 - INFO - Successfully processed job: Co-Founder CTO
+2025-04-15 21:59:06,838 - INFO - Processing job 30/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:07,002 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:09,873 - INFO - Successfully processed job: Senior Security Software Engineer
+2025-04-15 21:59:10,374 - INFO - Processing job 31/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:10,489 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:13,206 - INFO - Successfully processed job: Security Software Engineer
+2025-04-15 21:59:13,710 - INFO - Processing job 32/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:13,832 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:16,659 - INFO - Successfully processed job: Manager, Technical Writing
+2025-04-15 21:59:17,164 - INFO - Processing job 33/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:17,371 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:20,078 - INFO - Successfully processed job: Senior Front-End Engineer, React (Contractor)
+2025-04-15 21:59:20,579 - INFO - Processing job 34/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:20,688 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:23,534 - INFO - Successfully processed job: Senior Software Engineer - Transaction Auditing
+2025-04-15 21:59:24,040 - INFO - Processing job 35/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:24,191 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:27,052 - INFO - Successfully processed job: Software Engineer II - CPM Disputes
+2025-04-15 21:59:27,559 - INFO - Processing job 36/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:27,671 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:30,369 - INFO - Successfully processed job: Site Reliability Engineer 3
+2025-04-15 21:59:30,874 - INFO - Processing job 37/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:31,066 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:33,779 - INFO - Successfully processed job: DevOps Engineer 3 (Platform)
+2025-04-15 21:59:34,284 - INFO - One minute elapsed, resetting rate limit counter
+2025-04-15 21:59:34,285 - INFO - Processing job 38/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:34,501 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:37,218 - INFO - Successfully processed job: Java Developer 3 (Product Team)
+2025-04-15 21:59:37,724 - INFO - Processing job 39/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:37,886 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:40,499 - INFO - Successfully processed job: Full Stack Software Engineer
+2025-04-15 21:59:41,004 - INFO - Processing job 40/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:41,156 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:44,271 - INFO - Successfully processed job: Product Growth Strategist
+2025-04-15 21:59:44,777 - INFO - Processing job 41/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:44,958 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:47,719 - INFO - Successfully processed job: Senior Data Scientist - Retailer
+2025-04-15 21:59:48,225 - INFO - Processing job 42/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:48,475 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:51,155 - INFO - Successfully processed job: Senior Front-end Engineer
+2025-04-15 21:59:51,660 - INFO - Processing job 43/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:51,783 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:54,550 - INFO - Successfully processed job: Back-end Engineer
+2025-04-15 21:59:55,060 - INFO - Processing job 44/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:55,234 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 21:59:57,681 - INFO - Successfully processed job: Lead Systems Engineer
+2025-04-15 21:59:58,189 - INFO - Processing job 45/46 from https://wellfound.com/location/toronto
+2025-04-15 21:59:58,367 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:00:01,075 - INFO - Successfully processed job: Senior Systems Engineer
+2025-04-15 22:00:01,585 - INFO - Processing job 46/46 from https://wellfound.com/location/toronto
+2025-04-15 22:00:01,707 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:28:24,489 - INFO - 🔍 Extracting jobs from Glassdoor
+2025-04-15 22:28:24,491 - INFO - ✅ Extracted 0 Glassdoor job chunks
+2025-04-15 22:28:24,492 - INFO - 🟢 Saved 0 jobs to processed_jobs/glassdoor_structured_jobs_20250415_222824.json
+2025-04-15 22:30:48,801 - INFO - 🔍 Extracting jobs from Glassdoor
+2025-04-15 22:30:48,803 - INFO - ✅ Extracted 29 Glassdoor job chunks
+2025-04-15 22:30:49,104 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:30:52,864 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:30:56,586 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:00,482 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:03,831 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:07,366 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:11,753 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:15,426 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:18,891 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:22,717 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:26,792 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:30,582 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:34,183 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:38,061 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:41,757 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:45,350 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:49,503 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:53,616 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:31:57,732 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:01,793 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:05,469 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:09,389 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:13,554 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:17,276 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:21,430 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:25,290 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:29,372 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:33,290 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:37,144 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:32:40,407 - INFO - 🟢 Saved 29 jobs to processed_jobs/glassdoor_structured_jobs_20250415_223240.json
+2025-04-15 22:35:05,086 - INFO - 🔍 Extracting jobs from Glassdoor
+2025-04-15 22:35:05,089 - INFO - ✅ Extracted 29 Glassdoor job chunks
+2025-04-15 22:35:05,381 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:09,052 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:12,374 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:16,065 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:19,550 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:23,223 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:27,440 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:31,143 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:34,557 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:38,349 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:42,247 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:45,781 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:49,496 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:53,329 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:35:57,303 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:00,911 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:07,021 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:10,872 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:14,536 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:18,527 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:21,971 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:28,186 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:31,965 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:36,076 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:39,941 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:43,781 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:47,950 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:52,072 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:56,319 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:36:59,806 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 22:36:59,808 - INFO - ✅ Extracted 0 Wellfound job chunks
+2025-04-15 22:36:59,808 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 22:36:59,808 - INFO - ✅ Extracted 0 Wellfound job chunks
+2025-04-15 22:36:59,808 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 22:36:59,808 - INFO - ✅ Extracted 0 Wellfound job chunks
+2025-04-15 22:36:59,811 - INFO - 🟢 Saved 29 jobs to processed_jobs/structured_jobs_20250415_223659.json
+2025-04-15 22:42:34,345 - INFO - 🔍 Extracting jobs from Glassdoor
+2025-04-15 22:42:34,346 - INFO - ✅ Extracted 29 Glassdoor job chunks
+2025-04-15 22:42:34,645 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:38,441 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:41,852 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:45,467 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:48,787 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:52,213 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:56,237 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:42:59,945 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:03,194 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:06,725 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:10,609 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:14,242 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:18,030 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:21,927 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:25,663 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:49,781 - INFO - 🔍 Extracting jobs from Glassdoor
+2025-04-15 22:43:49,783 - INFO - ✅ Extracted 29 Glassdoor job chunks
+2025-04-15 22:43:50,061 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:53,858 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:43:57,883 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:01,563 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:05,183 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:08,712 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:13,022 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:16,525 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:19,914 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:23,562 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:27,714 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:31,469 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:35,150 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:38,991 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:43,124 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:46,831 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:50,814 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:54,758 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:44:58,589 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:02,503 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:06,448 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:10,532 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:14,540 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:18,686 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:22,631 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:26,771 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:30,449 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:33,874 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:37,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:41,958 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 22:45:41,966 - INFO - ✅ Extracted 46 Wellfound job chunks
+2025-04-15 22:45:42,084 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:45,635 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:48,737 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:52,121 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:45:57,107 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:00,366 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:03,839 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:07,155 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:10,637 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:13,891 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:17,187 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:20,502 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:23,809 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:27,124 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:30,508 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:34,077 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:39,487 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:43,058 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:46,448 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:51,397 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:54,908 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:46:58,031 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:01,435 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:04,835 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:08,652 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:11,889 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:15,432 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:19,012 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:22,220 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:25,399 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:28,623 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:32,075 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:35,546 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:38,963 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:42,277 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:45,391 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:48,516 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:51,897 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:55,088 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:47:58,406 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:01,809 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:05,152 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:08,618 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:11,770 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:17,007 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:20,172 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 22:48:20,178 - INFO - ✅ Extracted 36 Wellfound job chunks
+2025-04-15 22:48:20,278 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:23,686 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:26,917 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:32,260 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:35,448 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:38,709 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:42,122 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:45,586 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:48,987 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:52,555 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:55,802 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:48:59,366 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:02,815 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:06,327 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:09,711 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:13,188 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:16,692 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:19,885 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:23,153 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:26,676 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:29,595 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:33,072 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:36,316 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:39,651 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:42,708 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:46,194 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:49,420 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:52,888 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:56,399 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:49:59,874 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:03,397 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:06,908 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:10,211 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:13,614 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:16,925 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:20,503 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:23,813 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 22:50:23,820 - INFO - ✅ Extracted 49 Wellfound job chunks
+2025-04-15 22:50:23,997 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:27,165 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:30,529 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:33,950 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:37,405 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:40,695 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:43,656 - WARNING - Attempt 1/3: Error: Expecting ',' delimiter: line 8 column 23 (char 195)
+2025-04-15 22:50:44,761 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:50,264 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:53,528 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:50:56,964 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:00,026 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:03,115 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:06,447 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:09,776 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:13,153 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:16,545 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:19,909 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:23,147 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:26,608 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:29,989 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:33,384 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:36,453 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:40,018 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:43,317 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:46,671 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:50,034 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:53,350 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:56,687 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:51:59,914 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:03,179 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:06,521 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:09,970 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:13,039 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:16,318 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:19,592 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:23,288 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:26,456 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:29,825 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:33,521 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:36,746 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:40,268 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:43,991 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:47,291 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:50,943 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 22:52:54,111 - INFO - 🟢 Saved 153 jobs to processed_jobs/structured_jobs_20250415_225254.json
+2025-04-15 23:10:03,556 - INFO - 🔍 Extracting jobs from Glassdoor
+2025-04-15 23:10:03,557 - INFO - ✅ Extracted 29 Glassdoor job chunks
+2025-04-15 23:10:04,394 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:08,449 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:12,147 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:15,814 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:19,242 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:22,627 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:26,776 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:30,452 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:33,772 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:37,462 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:41,027 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:44,726 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:48,438 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:52,300 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:56,370 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:10:59,900 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:03,862 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:07,585 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:11,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:17,396 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:20,967 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:24,841 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:28,420 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:32,588 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:36,372 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:40,437 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:44,065 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:47,839 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:51,638 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:55,348 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 23:11:55,358 - INFO - ✅ Extracted 46 Wellfound job chunks
+2025-04-15 23:11:55,461 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:11:59,001 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:03,156 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:06,638 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:10,088 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:13,528 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:16,776 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:20,351 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:23,840 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:27,476 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:30,840 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:34,296 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:37,792 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:40,932 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:44,137 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:47,495 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:50,687 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:54,105 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:12:57,519 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:00,893 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:04,059 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:07,501 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:10,858 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:14,230 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:17,545 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:21,188 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:24,668 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:28,033 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:31,475 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:34,609 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:37,795 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:41,089 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:44,744 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:48,204 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:51,652 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:54,786 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:13:58,107 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:01,489 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:04,530 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:07,759 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:11,122 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:14,608 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:17,775 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:21,093 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:24,152 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:27,169 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 23:14:27,177 - INFO - ✅ Extracted 36 Wellfound job chunks
+2025-04-15 23:14:27,285 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:30,482 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:33,767 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:36,963 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:40,366 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:43,729 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:47,169 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:50,613 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:53,828 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:14:57,364 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:00,605 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:03,808 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:06,962 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:09,988 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:13,427 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:16,829 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:20,170 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:23,215 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:26,483 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:29,602 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:32,689 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:36,109 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:39,369 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:42,504 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:45,813 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:48,909 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:52,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:55,693 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:15:59,068 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:02,470 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:05,563 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:08,721 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:12,098 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:15,471 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:18,785 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:22,027 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:25,206 - INFO - 🔍 Extracting jobs from Wellfound
+2025-04-15 23:16:25,217 - INFO - ✅ Extracted 49 Wellfound job chunks
+2025-04-15 23:16:25,313 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:28,663 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:32,081 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:35,339 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:38,577 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:42,063 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:45,671 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:48,870 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:52,342 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:55,612 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:16:59,229 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:02,553 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:05,736 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:08,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:12,357 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:15,562 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:18,879 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:22,241 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:25,965 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:29,201 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:32,623 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:35,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:39,750 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:42,687 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:46,049 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:49,162 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:52,480 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:55,938 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:17:59,222 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:02,585 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:06,106 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:09,214 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:12,398 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:15,558 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:18,969 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:22,202 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:25,378 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:28,899 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:32,257 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:35,861 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:39,625 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:42,818 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:45,905 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:49,068 - INFO - 🔍 Extracting jobs from Indeed
+2025-04-15 23:18:49,070 - INFO - 📄 Found 15 table-style listings
+2025-04-15 23:18:49,070 - INFO - ✅ Extracted 15 Indeed job chunks
+2025-04-15 23:18:49,169 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:52,656 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:56,239 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:18:59,128 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:01,993 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:05,340 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:08,771 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:12,220 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:15,434 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:18,615 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:21,983 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:25,384 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:28,916 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:32,495 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:35,483 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:38,767 - INFO - 🔍 Extracting jobs from Indeed
+2025-04-15 23:19:38,769 - INFO - 📄 Found 15 table-style listings
+2025-04-15 23:19:38,769 - INFO - ✅ Extracted 15 Indeed job chunks
+2025-04-15 23:19:38,872 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:42,204 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:45,455 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:48,827 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:52,526 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:56,162 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:19:59,756 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:02,985 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:06,128 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:09,550 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:13,070 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:16,508 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:20,359 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:23,849 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:27,384 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:20:30,961 - INFO - 🟢 Saved 183 jobs to processed_jobs/structured_jobs_20250415_232030.json

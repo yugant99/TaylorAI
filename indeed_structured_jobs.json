@@ -1,0 +1,206 @@
+[
+  {
+    "title": "Data Scientist",
+    "company": "iA Auto Finance/ iA Financement auto",
+    "location": "Ontario, Hybrid work",
+    "salary_range": {
+      "min": 75000,
+      "max": 90000,
+      "currency": "CAD"
+    },
+    "employment_type": "Permanent, Full-time",
+    "work_arrangement": "Hybrid",
+    "skills": {
+      "technical": [
+        "data warehousing",
+        "data architecture",
+        "data engineering"
+      ],
+      "soft": [
+        "Analytical thought leadership",
+        "Communication"
+      ]
+    },
+    "experience": {
+      "years": null,
+      "level": "Not Available"
+    },
+    "responsibilities": [
+      "Experience working in data warehousing, data architecture and/or data engineering environments at enterprise scale."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience working in data warehousing, data architecture and/or data engineering environments at enterprise scale."
+      ],
+      "preferred": [
+        "Not Available"
+      ]
+    },
+    "source": {
+      "website": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html",
+      "original_url": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html?vjk=86e679b3b9ea7de5",
+      "extraction_date": "2025-04-15T23:02:33.325861"
+    }
+  },
+  {
+    "title": "Data Scientist",
+    "company": "iA Auto Finance",
+    "location": "Oakville, Ontario, Hybrid remote",
+    "salary_range": {
+      "min": 75000,
+      "max": 90000,
+      "currency": "CAD"
+    },
+    "employment_type": "Full-time, Permanent",
+    "work_arrangement": "Hybrid",
+    "skills": {
+      "technical": [
+        "Python",
+        "SQL",
+        "R",
+        "Git",
+        "Azure devOps",
+        "Azure ML",
+        "Databricks",
+        "PowerBI",
+        "ETL",
+        "Machine learning",
+        "Data warehousing",
+        "Data architecture",
+        "Data engineering"
+      ],
+      "soft": [
+        "Proactive",
+        "Self-motivated",
+        "Results oriented",
+        "Enthusiastic",
+        "Creative thinker",
+        "High level of integrity",
+        "Excellent work ethic",
+        "Ability to prioritize and manage conflicting demands"
+      ]
+    },
+    "experience": {
+      "years": 3,
+      "level": "Not Available"
+    },
+    "responsibilities": [
+      "Design and develop scalable solutions for analyzing multiple data sets",
+      "Create and maintain data pipelines, data structures, ML/AI models, and reports",
+      "Ensure data integrity, reproducibility of analysis and support analytical models and reports",
+      "Assess and recommend new business development opportunities exposed through data analysis",
+      "Automate manual processes and reports to optimize data delivery",
+      "Create reports showing key risk indicators for auto finance business",
+      "Identify and help implement new / alternative data sources",
+      "Use data analytics to find process efficiencies in back office processes",
+      "Maintain accurate and complete documentation for all activities",
+      "Mentor less experienced members of the team",
+      "Communicate and popularize the different aspects of the models"
+    ],
+    "qualifications": {
+      "required": [
+        "Degree in math, computer science, statistics, data science, actuarial science or related field"
+      ],
+      "preferred": [
+        "Understanding of profit drivers in auto finance",
+        "Experience in the financial industry",
+        "Microsoft Azure Certifications data related"
+      ]
+    },
+    "source": {
+      "website": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html",
+      "original_url": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html?vjk=86e679b3b9ea7de5",
+      "extraction_date": "2025-04-15T23:02:41.165667"
+    }
+  },
+  {
+    "title": "Senior Data Analyst",
+    "company": "BGSF",
+    "location": "Toronto, ON",
+    "salary_range": {
+      "min": 65,
+      "max": 70,
+      "currency": "CAD"
+    },
+    "employment_type": "Full-time",
+    "work_arrangement": "On-site",
+    "skills": {
+      "technical": [
+        "Data analysis",
+        "Data quality"
+      ],
+      "soft": [
+        "Attention to detail",
+        "Analytical skills"
+      ]
+    },
+    "experience": {
+      "years": null,
+      "level": "Senior"
+    },
+    "responsibilities": [
+      "Help maintain quality and consistency of data",
+      "Experience reviewing documents and cross-checking data",
+      "Identify mismatches, missing data, or duplicates"
+    ],
+    "qualifications": {
+      "required": [
+        "Data analysis experience"
+      ],
+      "preferred": [
+        "Data quality experience"
+      ]
+    },
+    "source": {
+      "website": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html",
+      "original_url": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html?sort=date&vjk=86d3730ae21c885a",
+      "extraction_date": "2025-04-15T23:02:45.108535"
+    }
+  },
+  {
+    "title": "SENIOR DATA ANALYST",
+    "company": "Not Available",
+    "location": "Toronto, Ontario (hybrid \u2013 2 to 3 days onsite per week)",
+    "salary_range": {
+      "min": 65,
+      "max": 70,
+      "currency": "CAD"
+    },
+    "employment_type": "Contract",
+    "work_arrangement": "Hybrid",
+    "skills": {
+      "technical": [
+        "Bloomberg",
+        "Refinitiv"
+      ],
+      "soft": [
+        "Attention to detail"
+      ]
+    },
+    "experience": {
+      "years": 3,
+      "level": "Senior"
+    },
+    "responsibilities": [
+      "Review internal records for financial counterparties",
+      "Compare against third-party sources and legal docs",
+      "Identify mismatches, missing data, or duplicates",
+      "Assist with basic reporting",
+      "Help maintain quality and consistency of data"
+    ],
+    "qualifications": {
+      "required": [
+        "3 to 5 years working with financial data (e.g. bonds, securitizations, fixed income)",
+        "Experience reviewing documents and cross-checking data"
+      ],
+      "preferred": [
+        "Basic familiarity with tools like Bloomberg or Refinitiv"
+      ]
+    },
+    "source": {
+      "website": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html",
+      "original_url": "https://ca.indeed.com/q-data-scientist-l-toronto,-on-jobs.html?sort=date&vjk=86d3730ae21c885a",
+      "extraction_date": "2025-04-15T23:02:49.824320"
+    }
+  }
+]

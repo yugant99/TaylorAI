@@ -1,0 +1,15 @@
+2025-04-15 23:02:29,275 - INFO - 🔍 Extracting jobs from Indeed
+2025-04-15 23:02:29,276 - INFO - ✅ Extracted 2 Indeed job chunks
+2025-04-15 23:02:29,586 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:02:33,473 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:02:41,165 - INFO - 🔍 Extracting jobs from Indeed
+2025-04-15 23:02:41,167 - INFO - ✅ Extracted 2 Indeed job chunks
+2025-04-15 23:02:41,316 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:02:45,270 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:02:49,826 - INFO - 🟢 Saved 4 jobs to indeed_structured_jobs.json
+2025-04-15 23:05:42,673 - INFO - 🔍 Extracting jobs from Indeed
+2025-04-15 23:05:42,673 - INFO - 📄 Found 15 table-style listings
+2025-04-15 23:05:42,674 - INFO - ✅ Extracted 15 Indeed job chunks
+2025-04-15 23:05:42,935 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:05:45,747 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 23:05:48,471 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,55 @@
+Job description
+Role Purpose
+
+The purpose of the role is to liaison and bridging the gap between customer and Wipro delivery team to comprehend and analyze customer requirements and articulating aptly to delivery teams thereby, ensuring right solutioning to the customer.
+
+Do
+
+1. Customer requirements gathering and engagement
+Interface and coordinate with client engagement partners to understand the RFP/ RFI requirements
+Detail out scope documents, functional & non-functional requirements, features etc ensuring all stated and unstated customer needs are captured
+Construct workflow charts and diagrams, studying system capabilities, writing specification after thorough research and analysis of customer requirements
+Engage and interact with internal team - project managers, pre-sales team, tech leads, architects to design and formulate accurate and timely response to RFP/RFIs
+Understand and communicate the financial and operational impact of any changes
+Periodic cadence with customers to seek clarifications and feedback wrt solution proposed for a particular RFP/ RFI and accordingly instructing delivery team to make changes in the design
+Empower the customers through demonstration and presentation of the proposed solution/ prototype
+Maintain relationships with customers to optimize business integration and lead generation
+Ensure ongoing reviews and feedback from customers to improve and deliver better value (services/ products) to the customers
+
+2. Engage with delivery team to ensure right solution is proposed to the customer
+
+a. Periodic cadence with delivery team to
+Provide them with customer feedback/ inputs on the proposed solution
+Review the test cases to check 100% coverage of customer requirements
+Conduct root cause analysis to understand the proposed solution/ demo/ prototype before sharing it with the customer
+Deploy and facilitate new change requests to cater to customer needs and requirements
+Support QA team with periodic testing to ensure solutions meet the needs of businesses by giving timely inputs/feedback
+Conduct Integration Testing and User Acceptance demos testing to validate implemented solutions and ensure 100% success rate
+Use data modelling practices to analyze the findings and design, develop improvements and changes
+Ensure 100% utilization by studying systems capabilities and understanding business specifications
+Stitch the entire response/ solution proposed to the RFP/ RFI before its presented to the customer
+
+b. Support Project Manager/ Delivery Team in delivering the solution to the customer
+Define and plan project milestones, phases and different elements involved in the project along with the principal consultant
+Drive and challenge the presumptions of delivery teams on how will they successfully execute their plans
+Ensure Customer Satisfaction through quality deliverable on time
+
+3. Build domain expertise and contribute to knowledge repository
+Engage and interact with other BAs to share expertise and increase domain knowledge across the vertical
+Write whitepapers/ research papers, point of views and share with the consulting community at large
+Identify and create used cases for a different project/ account that can be brought at Wipro level for business enhancements
+Conduct market research for content and development to provide latest inputs into the projects thereby ensuring customer delight
+Role: Business Analyst
+Industry Type: IT Services & Consulting
+Department: Data Science & Analytics
+Employment Type: Full Time, Permanent
+Role Category: Business Intelligence & Analytics
+Education
+UG: Any Graduate
+PG: Any Postgraduate
+read more
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Business Analysis
+Gap AnalysisWorkflow DesignProcess MappingBusiness Requirement GatheringBusiness Process Reengineering
