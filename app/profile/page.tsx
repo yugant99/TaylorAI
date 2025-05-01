@@ -1,29 +1,130 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
-import { toast } from "@/components/ui/Toast";
-import { User } from "@supabase/supabase-js";
+import { useRouter } from "next/navigation";
 
-export default function ProfilePage() {
+export default function Profile() {
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
-  const [uploading, setUploading] = useState(false);
+
   const [fullName, setFullName] = useState("");
   const [resumeUrl, setResumeUrl] = useState<string | null>(null);
-  const [userId, setUserId] = useState<string | null>(null);
-  const [user, setUser] = useState<User | null>(null);
-  const [fileError, setFileError] = useState<string | null>(null);
+  const [coverLetterPath, setCoverLetterPath] = useState<string | null>(null);
+  const [coverLetterUrl, setCoverLetterUrl] = useState<string | null>(null);
+  const [resumeText, setResumeText] = useState<string>(""); // Added state for resume text content
+  const [coverLetterText, setCoverLetterText] = useState<string>(""); // Added state for cover letter text content
+  const [uploading, setUploading] = useState(false);
   const [uploadSuccess, setUploadSuccess] = useState(false);
+  const [coverLetterSuccess, setCoverLetterSuccess] = useState(false);
   const [selectedFileName, setSelectedFileName] = useState<string | null>(null);
+  const [selectedCoverLetterName, setSelectedCoverLetterName] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [extractingText, setExtractingText] = useState(false);
+
+  const [userId, setUserId] = useState<string | null>(null);
+
+  // Helper function to clean text and remove problematic characters
+  const cleanText = (text: string): string => {
+    if (!text) return '';
+    
+    return text
+      .replace(/\u0000/g, '') // Remove null bytes that PostgreSQL rejects
+      .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '') // Remove control characters
+      .replace(/\\u[0-9a-fA-F]{4}/g, '') // Remove Unicode escape sequences
+      .trim();
+  };
+
+  // Extract text from PDF using our API endpoint
+  const extractTextFromPDF = async (bucket: string, filePath: string): Promise<string> => {
+    try {
+      setExtractingText(true);
+      console.log(`Extracting text from ${bucket}/${filePath}`);
+      
+      const response = await fetch('/api/extract_pdf_text', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ bucket, filePath }),
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error(`Text extraction API error (${response.status}):`, errorText);
+        try {
+          const errorData = JSON.parse(errorText);
+          throw new Error(errorData.error || 'Failed to extract text from PDF');
+        } catch (e) {
+          throw new Error(`Failed to extract text: ${response.status}`);
+        }
+      }
+
+      const data = await response.json();
+      const extractedText = data.text || '';
+      console.log(`Successfully extracted ${extractedText.length} characters`);
+      
+      // Additional cleaning step as a safeguard
+      const cleanedText = cleanText(extractedText);
+      console.log(`Text cleaned. Original: ${extractedText.length} chars, Cleaned: ${cleanedText.length} chars`);
+      
+      return cleanedText;
+    } catch (error) {
+      console.error('Error extracting text from PDF:', error);
+      return '';
+    } finally {
+      setExtractingText(false);
+    }
+  };
+
+  // 🔥 refresh user profile from database with debugging
+  const refreshProfile = async () => {
+    if (!userId) return;
+    console.log("Refreshing profile for user:", userId);
+
+    const { data, error } = await supabase
+      .from("users")
+      .select("*")
+      .eq("id", userId)
+      .single();
+
+    console.log("Profile data:", data);
+    console.log("Profile error:", error);
+
+    if (data) {
+      setResumeUrl(data.resume_url || null);
+      setCoverLetterPath(data.cover_letter_path || null);
+      setCoverLetterUrl(data.cover_letter_url || null);
+      setResumeText(data.resume_text || '');
+      setCoverLetterText(data.cover_letter_text || '');
+      
+      if (data.resume_filename) setSelectedFileName(data.resume_filename);
+      if (data.cover_letter_filename) setSelectedCoverLetterName(data.cover_letter_filename);
+      
+      console.log("Updated state with resume URL:", data.resume_url);
+      console.log("Updated state with cover letter path:", data.cover_letter_path);
+      console.log("Updated state with cover letter URL:", data.cover_letter_url);
+      console.log("Updated state with resume text:", data.resume_text ? `${data.resume_text.substring(0, 100)}...` : 'None');
+      console.log("Updated state with cover letter text:", data.cover_letter_text ? `${data.cover_letter_text.substring(0, 100)}...` : 'None');
+      console.log("Updated state with resume filename:", data.resume_filename);
+      console.log("Updated state with cover letter filename:", data.cover_letter_filename);
+    }
+  };
 
   useEffect(() => {
-    async function loadProfile() {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return router.replace("/login");
-
-      setUser(user);
+    const fetchProfile = async () => {
+      console.log("Fetching initial profile data");
+      
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      
+      if (!user) {
+        console.log("No user found, redirecting to login");
+        router.push("/login");
+        return;
+      }
+      
+      console.log("User found:", user.id);
       setUserId(user.id);
 
       const { data, error } = await supabase
@@ -32,271 +133,309 @@ export default function ProfilePage() {
         .eq("id", user.id)
         .single();
 
+      console.log("Initial profile data:", data);
+      console.log("Initial profile error:", error);
+
       if (data) {
         setFullName(data.full_name || "");
         setResumeUrl(data.resume_url || null);
+        setCoverLetterPath(data.cover_letter_path || null);
+        setCoverLetterUrl(data.cover_letter_url || null); // Added this line
+        
+        if (data.resume_filename) setSelectedFileName(data.resume_filename);
+        if (data.cover_letter_filename) setSelectedCoverLetterName(data.cover_letter_filename);
       }
+    };
 
-      setLoading(false);
-    }
-
-    loadProfile();
-  }, [router]);
+    fetchProfile();
+  }, []);
 
   const handleResumeUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (!e.target.files || e.target.files.length === 0 || !userId) return;
-
-    const file = e.target.files[0];
-    setSelectedFileName(file.name);
-    setFileError(null);
-    setUploadSuccess(false);
-
-    const ext = file.name.split('.').pop()?.toLowerCase();
-    const valid = ['pdf', 'doc', 'docx', 'txt'];
-    if (!ext || !valid.includes(ext)) return setFileError("Allowed: PDF, DOC, DOCX, TXT");
-
-    if (file.size > 5 * 1024 * 1024) return setFileError("Max file size: 5MB");
-
-    setUploading(true);
-    // Store in private bucket with user ID as folder path for organization
-    const filePath = `${userId}/${file.name}`;
-
     try {
-      // Upload file to Supabase Storage (private bucket)
-      const { error: uploadError } = await supabase
-        .storage.from("resumes")
+      setUploading(true);
+      setError(null);
+      const file = e.target.files?.[0];
+      if (!file || !userId) {
+        setUploading(false);
+        return;
+      }
+
+      console.log("Uploading resume:", file.name);
+      const filePath = `${userId}/resume/${file.name}`;
+      const { error: uploadError } = await supabase.storage
+        .from("resumes")
         .upload(filePath, file, { upsert: true });
+
       if (uploadError) throw uploadError;
 
-      // Get a signed URL with limited time access (24 hours)
-      // This ensures the file remains private but accessible when needed
-      const { data, error: urlError } = await supabase
-        .storage.from("resumes")
-        .createSignedUrl(filePath, 86400); // 24 hours in seconds
-      if (urlError || !data?.signedUrl) throw urlError || new Error("Failed to get URL");
+      const { data: signedData } = await supabase.storage
+        .from("resumes")
+        .createSignedUrl(filePath, 60 * 60 * 24 * 7);
 
-      const signedUrl = data.signedUrl;
-
-      // Store the URL in the user profile
-      const { error: updateError } = await supabase
-        .from("users")
-        .upsert({ 
-          id: userId, 
-          full_name: fullName, 
-          resume_url: signedUrl,
-          resume_filename: file.name, // Store filename for display purposes
-          resume_path: filePath // Store path for future reference
-        });
-      if (updateError) throw updateError;
-
-      setResumeUrl(signedUrl);
-      setUploadSuccess(true);
-      toast({ title: "Resume Uploaded", description: "Successfully saved to your profile." });
-    } catch (err: any) {
-      toast({ title: "Upload Failed", description: err.message || "Unexpected error." });
-    } finally {
-      setUploading(false);
-    }
-  };
-
-  const handleUpdateProfile = async () => {
-    if (!userId) return;
-    setUploading(true);
-    
-    try {
-      // If there's a selected file that hasn't been uploaded yet, upload it first
-      if (selectedFileName && !resumeUrl && document.getElementById('resume-upload')) {
-        const fileInput = document.getElementById('resume-upload') as HTMLInputElement;
-        if (fileInput?.files && fileInput.files.length > 0) {
-          const file = fileInput.files[0];
-          const filePath = `${userId}/${file.name}`;
-          
-          // Upload file to Supabase Storage
-          const { error: uploadError } = await supabase
-            .storage.from("resumes")
-            .upload(filePath, file, { upsert: true });
-          if (uploadError) throw uploadError;
-          
-          // Get signed URL
-          const { data, error: urlError } = await supabase
-            .storage.from("resumes")
-            .createSignedUrl(filePath, 86400);
-          if (urlError || !data?.signedUrl) throw urlError || new Error("Failed to get URL");
-          
-          // Update resumeUrl with the signed URL
-          setResumeUrl(data.signedUrl);
-          setUploadSuccess(true);
-          
-          // Update user profile with all information
-          const { error: updateError } = await supabase
-            .from("users")
-            .upsert({ 
-              id: userId, 
-              full_name: fullName, 
-              resume_url: data.signedUrl,
-              resume_filename: file.name,
-              resume_path: filePath
-            });
-          if (updateError) throw updateError;
-          
-          toast({ title: "Profile & Resume Saved", description: "Your profile and resume were saved successfully." });
-        }
-      } else {
-        // Just update the name if no new file is selected
-        const { error } = await supabase
-          .from("users")
-          .upsert({ id: userId, full_name: fullName, resume_url: resumeUrl });
-        if (error) throw error;
-        toast({ title: "Profile Saved", description: "Your profile was updated." });
-      }
-      
-      // Redirect to jobs page after successful save
-      setTimeout(() => {
-        router.push("/jobs");
-      }, 1000); // Short delay to show the success message
-      
-    } catch (err: any) {
-      toast({ title: "Save Failed", description: err.message });
-    } finally {
-      setUploading(false);
-    }
-  };
-
-  if (loading) {
-    return <div className="flex items-center justify-center h-screen">Loading...</div>;
-  }
-
-  const uploadedView = (
-    <div className="max-w-md mx-auto p-6 bg-white rounded shadow">
-      <h2 className="text-xl font-semibold mb-4">
-        {uploadSuccess ? "Resume Uploaded!" : "Resume Already Uploaded"}
-      </h2>
-      <p className="text-sm mb-4 text-gray-600">
-        {uploadSuccess ? `Your file "${selectedFileName}" is uploaded.` : "You're ready to apply."}
-      </p>
-
-      <div className="bg-gray-100 p-4 rounded mb-4">
-        <p className="text-sm mb-1 font-medium">Resume:</p>
-        <a href={resumeUrl!} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline text-sm flex items-center">
-          <span>View Resume</span>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-          </svg>
-        </a>
-      </div>
-
-      <div className="space-y-3">
-        <button
-          onClick={() => router.push("/jobs")}
-          className="w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 flex items-center justify-center"
-        >
-          <span>Proceed to Jobs</span>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-            <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-          </svg>
-        </button>
+      if (signedData?.signedUrl) {
+        console.log("Generated signed URL for resume:", signedData.signedUrl);
         
-        <div className="border-t pt-3 mt-3">
-          <button
-            onClick={() => router.push("/jobs")}
-            className="w-full py-2 bg-gray-100 text-gray-800 rounded hover:bg-gray-200 text-sm"
-          >
-            Skip to Jobs
-          </button>
-        </div>
-      </div>
-    </div>
-  );
+        // Extract text from the uploaded PDF
+        console.log("Extracting text from resume PDF...");
+        const extractedText = await extractTextFromPDF("resumes", filePath);
+        console.log(`Extracted ${extractedText.length} characters from resume`);
+        
+        // First check if the user exists in the database
+        const { data: existingUser } = await supabase
+          .from("users")
+          .select("*")
+          .eq("id", userId)
+          .single();
+        
+        console.log("Existing user data:", existingUser);
+        
+        // Try a different approach - first check if user exists, then update or insert accordingly
+        const { data: existingUserCheck, error: checkError } = await supabase
+          .from("users")
+          .select("id")
+          .eq("id", userId);
+          
+        console.log("Check if user exists:", existingUserCheck, checkError);
+        
+        let dbOperation;
+        const basicUserData = {
+          full_name: fullName,
+          resume_filename: file.name,
+          resume_path: filePath,
+          resume_url: signedData.signedUrl
+        };
+        
+        // Try to update without the resume_text field first
+        if (existingUserCheck && existingUserCheck.length > 0) {
+          console.log("User exists, updating basic fields first");
+          dbOperation = await supabase
+            .from("users")
+            .update(basicUserData)
+            .eq("id", userId);
+        } else {
+          console.log("User doesn't exist, inserting new record with basic fields");
+          dbOperation = await supabase
+            .from("users")
+            .insert({
+              id: userId,
+              ...basicUserData
+            });
+        }
+        
+        console.log("Basic user data operation:", dbOperation);
+        
+        // Now try to update just the resume_text field separately
+        console.log("Now trying to update resume_text field separately");
+        try {
+          const { data, error } = await supabase
+            .from("users")
+            .update({ resume_text: extractedText })
+            .eq("id", userId);
+            
+          console.log("Resume text update response:", data);
+          console.log("Resume text update error:", error);
+          
+          if (error) {
+            console.error("Failed to save resume_text to database:", error);
+            console.log("Continuing anyway since basic user data was saved");
+          }
+        } catch (updateError) {
+          console.error("Exception updating resume_text:", updateError);
+          console.log("Continuing anyway since basic user data was saved");
+        }
 
-  if (resumeUrl || uploadSuccess) return uploadedView;
+        setResumeText(extractedText);
+        setUploadSuccess(true);
+        await refreshProfile(); // 🔥 refresh after upload
+      }
+    } catch (err: any) {
+      console.error("Resume upload error:", err);
+      setError("Resume upload failed. " + err.message);
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const handleCoverLetterUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    try {
+      setUploading(true);
+      setError(null);
+      const file = e.target.files?.[0];
+      if (!file || !userId) {
+        setUploading(false);
+        return;
+      }
+
+      console.log("Uploading cover letter:", file.name);
+      const filePath = `${userId}/coverletter/${file.name}`;
+      const { error: uploadError } = await supabase.storage
+        .from("coverletters")
+        .upload(filePath, file, { upsert: true });
+
+      if (uploadError) throw uploadError;
+
+      const { data: signedData } = await supabase.storage
+        .from("coverletters")
+        .createSignedUrl(filePath, 60 * 60 * 24 * 7);
+
+      if (signedData?.signedUrl) {
+        console.log("Generated signed URL for cover letter:", signedData.signedUrl);
+        
+        // Extract text from the uploaded PDF
+        console.log("Extracting text from cover letter PDF...");
+        const extractedText = await extractTextFromPDF("coverletters", filePath);
+        console.log(`Extracted ${extractedText.length} characters from cover letter`);
+        
+        // First check if the user exists in the database
+        const { data: existingUser } = await supabase
+          .from("users")
+          .select("*")
+          .eq("id", userId)
+          .single();
+        
+        console.log("Existing user data:", existingUser);
+        
+        // Try a different approach - first check if user exists, then update or insert accordingly
+        const { data: existingUserCheck, error: checkError } = await supabase
+          .from("users")
+          .select("id")
+          .eq("id", userId);
+          
+        console.log("Check if user exists:", existingUserCheck, checkError);
+        
+        let dbOperation;
+        const basicUserData = {
+          full_name: fullName,
+          cover_letter_filename: file.name,
+          cover_letter_path: filePath,
+          cover_letter_url: signedData.signedUrl
+        };
+        
+        // Try to update without the cover_letter_text field first
+        if (existingUserCheck && existingUserCheck.length > 0) {
+          console.log("User exists, updating basic fields first");
+          dbOperation = await supabase
+            .from("users")
+            .update(basicUserData)
+            .eq("id", userId);
+        } else {
+          console.log("User doesn't exist, inserting new record with basic fields");
+          dbOperation = await supabase
+            .from("users")
+            .insert({
+              id: userId,
+              ...basicUserData
+            });
+        }
+        
+        console.log("Basic user data operation:", dbOperation);
+        
+        // Now try to update just the cover_letter_text field separately
+        console.log("Now trying to update cover_letter_text field separately");
+        try {
+          const { data, error } = await supabase
+            .from("users")
+            .update({ cover_letter_text: extractedText })
+            .eq("id", userId);
+            
+          console.log("Cover letter text update response:", data);
+          console.log("Cover letter text update error:", error);
+          
+          if (error) {
+            console.error("Failed to save cover_letter_text to database:", error);
+            console.log("Continuing anyway since basic user data was saved");
+          }
+        } catch (updateError) {
+          console.error("Exception updating cover_letter_text:", updateError);
+          console.log("Continuing anyway since basic user data was saved");
+        }
+
+        setCoverLetterText(extractedText);
+        setCoverLetterSuccess(true);
+        await refreshProfile(); // 🔥 refresh after upload
+      }
+    } catch (err: any) {
+      console.error("Cover letter upload error:", err);
+      setError("Cover letter upload failed. " + err.message);
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!fullName.trim()) {
+      setError("Full name is required.");
+      return;
+    }
+
+    router.push("/jobs");
+  };
+
+  // ✅ Updated uploads completed check to use coverLetterUrl
+  const uploadsCompleted = (resumeUrl || uploadSuccess) && (coverLetterUrl || coverLetterSuccess);
+  console.log("Upload status check:", {
+    resumeUrl,
+    uploadSuccess,
+    coverLetterUrl,
+    coverLetterSuccess,
+    uploadsCompleted
+  });
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded shadow mt-10">
-      <h1 className="text-2xl font-bold mb-4">Complete Your Profile</h1>
-      <p className="text-gray-600 mb-4">Upload your resume to get started with job applications</p>
-      
-      <div className="space-y-5">
-        <div>
-          <label className="block text-sm font-medium mb-1">Full Name</label>
-          <input
-            type="text"
-            className="w-full border px-3 py-2 rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
-            value={fullName}
-            onChange={(e) => setFullName(e.target.value)}
-            placeholder="Enter your name"
-          />
-        </div>
+    <div className="flex min-h-screen flex-col items-center justify-center p-24">
+      <div className="max-w-md w-full">
+        <h1 className="text-2xl font-bold mb-6">Complete Your Profile</h1>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block font-medium">Full Name</label>
+            <input
+              type="text"
+              className="w-full p-2 border rounded"
+              value={fullName}
+              onChange={(e) => setFullName(e.target.value)}
+              placeholder="Enter your full name"
+            />
+          </div>
 
-        <div>
-          <label className="block text-sm font-medium mb-1">Upload Resume</label>
-          <div className="border-2 border-dashed border-gray-300 rounded-md p-4 text-center hover:border-blue-500 transition-colors">
+          <div>
+            <label className="block font-medium">Upload Resume</label>
             <input
               type="file"
-              accept=".pdf,.doc,.docx,.txt"
+              accept=".pdf,.doc,.docx"
               onChange={handleResumeUpload}
               disabled={uploading}
-              className="w-full"
-              id="resume-upload"
             />
-            {uploading && (
-              <div className="flex items-center justify-center mt-2">
-                <svg className="animate-spin h-5 w-5 mr-2 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-                <span>Uploading...</span>
-              </div>
-            )}
-            {selectedFileName && !uploading && !fileError && (
-              <div className="mt-2 text-sm text-gray-700 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-                {selectedFileName}
-              </div>
-            )}
-            <p className="mt-1 text-xs text-gray-500">
-              Accepted formats: PDF, DOC, DOCX, TXT (max 5MB)
-            </p>
-            {fileError && <p className="text-red-600 text-sm mt-1">{fileError}</p>}
+            {selectedFileName && <p className="text-sm mt-1">{selectedFileName}</p>}
           </div>
-        </div>
 
-        <div className="pt-2">
-          <button
-            onClick={handleUpdateProfile}
-            disabled={uploading || !fullName.trim()}
-            className="w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50 flex items-center justify-center"
-          >
-            {uploading ? (
-              <>
-                <svg className="animate-spin -ml-1 mr-2 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-                Saving...
-              </>
-            ) : (
-              <>
-                Save Profile & Continue to Jobs
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </>
+          <div>
+            <label className="block font-medium">Upload Cover Letter</label>
+            <input
+              type="file"
+              accept=".pdf,.doc,.docx"
+              onChange={handleCoverLetterUpload}
+              disabled={uploading}
+            />
+            {selectedCoverLetterName && (
+              <p className="text-sm mt-1">
+                {selectedCoverLetterName}
+                {!coverLetterUrl && " (URL not saved)"}
+              </p>
             )}
-          </button>
-        </div>
-        
-        <div className="border-t pt-3 mt-3">
-          <p className="text-center text-xs text-gray-500 mb-2">Not ready to upload your resume yet?</p>
+          </div>
+
+          {error && <div className="text-red-600">{error}</div>}
+
           <button
-            onClick={() => router.push("/jobs")}
-            className="w-full py-2 bg-gray-100 text-gray-800 rounded hover:bg-gray-200 text-sm"
+            type="submit"
+            disabled={uploading || !fullName.trim() || !uploadsCompleted}
+            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded disabled:opacity-50 w-full"
           >
-            Skip to Jobs
+            {uploading ? "Uploading..." : "Continue to Jobs"}
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );

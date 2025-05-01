@@ -17,7 +17,7 @@ export default function SelectionDrawer({ count, onGenerate }: SelectionDrawerPr
           disabled={count === 0}
           className="bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50"
         >
-          Generate Letters
+          Generate Cover Letters
         </button>
       </div>
     </div>

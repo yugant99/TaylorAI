@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import JobCard, { Job } from "@/components/JobCard";
 import SelectionDrawer from "@/components/SelectionDrawer";
+import CoverLetterGenerator from "@/components/CoverLetterGenerator";
 import { toast } from "@/components/ui/Toast";
 
 interface Selection {
@@ -14,6 +15,7 @@ export default function JobsPage() {
   const [selected, setSelected] = useState<Record<string, boolean>>({});
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [showGenerator, setShowGenerator] = useState(false);
 
   // Load jobs
   useEffect(() => {
@@ -86,7 +88,20 @@ export default function JobsPage() {
   };
 
   const handleGenerate = () => {
-    toast({ title: "Stub", description: "Generate letters not implemented yet." });
+    const selectedIds = Object.entries(selected)
+      .filter(([_, v]) => v)
+      .map(([k]) => k);
+      
+    if (selectedIds.length === 0) {
+      toast({ title: "No jobs selected", description: "Please select at least one job." });
+      return;
+    }
+    
+    // Get the selected job objects
+    const selectedJobObjects = jobs.filter(job => selected[job.id]);
+    
+    // Show the cover letter generator
+    setShowGenerator(true);
   };
 
   if (loading) return <div className="p-8 text-center">Loading jobs...</div>;
@@ -119,6 +134,13 @@ export default function JobsPage() {
           </button>
         </div>
       </div>
+      
+      {showGenerator && (
+        <CoverLetterGenerator
+          selectedJobs={jobs.filter(job => selected[job.id])}
+          onClose={() => setShowGenerator(false)}
+        />
+      )}
     </div>
   );
 }
